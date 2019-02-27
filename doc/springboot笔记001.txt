@@ -1,0 +1,26 @@
+1.Spring发展
+1）Spring1.x时代
+   都是通过xml文件配置bean
+2）Spring2.x时代
+   随着jdk1.5带来注解的支持。
+
+最佳实践：a.应用的基本配置用xml，比如：数据源、资源文件等；
+	  b.业务开发用注解，比如：service中注入bean等；
+3）Spring3.x到Spring4.x
+   Spring3.x开始提供java配置方式，使用配置方式可以更好理解你配置的Bean，并且Spring4.x和Spring boot 推荐java配置方式
+
+2.Spring的java配置方式
+1）@Configuration作用于类上，相当于一个xml配置文件；
+2）@Bean作用于方法上，相当于xml配置中的<bean>
+
+
+3.Spring Boot优缺点
+优点：
+   快速构建项目；
+   对主流开发框架的无配置集成；
+   项目可独立运行，无须外部依赖Servlet容器；
+   提供运行时应用监控；
+   极大地提高了开发、部署效率；与云计算的天然集成
+缺点：
+
+
